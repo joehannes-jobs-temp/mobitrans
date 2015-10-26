@@ -1,0 +1,25 @@
+{
+  "name": "mobitrans",
+  "version": "0.1.0",
+  "description": "a little game with math",
+  "main": "index.coffee.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehannes-jobs/mobitrans.git"
+  },
+  "author": "DI <johannes.neugschwentner@gmail.com> (FH)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehannes-jobs/mobitrans/issues"
+  },
+  "homepage": "https://github.com/joehannes-jobs/mobitrans#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mathjs": "^2.4.0",
+    "random-int": "^1.0.0",
+    "vorpal": "^1.3.26"
+  }
+}
