@@ -2,7 +2,7 @@
   "name": "mobitrans",
   "version": "0.1.0",
   "description": "a little game with math",
-  "main": "index.coffee.md",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
