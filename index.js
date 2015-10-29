@@ -2,11 +2,7 @@
 
 var express = require('express');
 var chalk = require('chalk')
-var cli = require('./src/cli');
-
-
-var port = 32732;
-var app = express();
+var cli = require('./lib/cli');
 
 var banner = chalk.red.bgBlack("\n" +
 "                           _____                                                                     " + "\n" +

@@ -13,13 +13,13 @@ class Color {
     static ify (...args) {
         let str = "";
         for (let _str of args) {
-            if (arg === "\n") {
+            if (_str === "\n") {
                 str += _str;
             } else {
                 if (typeof _str === "string") {
-                    str += this.style().bold(_str);
+                    str += this.style.bold(_str);
                 } else {
-                    str += this.style().underline.bgBlack(_str);
+                    str += this.style.underline.bgBlack(_str);
                 }
             }
         }
